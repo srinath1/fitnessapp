@@ -14,7 +14,7 @@ const CashFlow = async ({ year }: { year: number }) => {
     <Card className="mb-5">
       <CardHeader>
         <CardTitle className="flex justify-between">
-          <span>Cash Flow</span>
+          <span>Cash Flowsnew</span>
           <CashFlowFilters yearsRange={yearsRange} year={year} />
         </CardTitle>
         <CardContent className="grid grid-cols-[1fr_250px]">
