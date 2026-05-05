@@ -13,11 +13,12 @@ export default function Home() {
         fill
         className="object-cover opacity-50"
       />
+
       <div className="relative z-10 text-center flex flex-col gap-4">
         <h1 className="text-5xl font-bold flex gap-1 items-center justify-center">
           <ChartColumnBigIcon className="text-lime-500" size={60} /> NextCash
         </h1>
-        <p className="text-2xl">Track your finances with ease</p>
+        <p className="text-2xl">Track your finances with ease-Fintech</p>
         <SignedIn>
           <Button asChild size="lg">
             <Link href="/dashboard">Go To Your Dashboard</Link>
