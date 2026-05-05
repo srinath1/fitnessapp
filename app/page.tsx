@@ -4,7 +4,7 @@ import { ChartColumnBigIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
-export default  function Home() {
+export default function Home() {
   return (
     <main className="min-h-[400px] h-[calc(100vh-80px)] flex items-center justify-center bg-white relative">
       <Image
